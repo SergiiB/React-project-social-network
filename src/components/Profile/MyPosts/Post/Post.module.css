@@ -1,0 +1,36 @@
+.item {
+    color: #02faa8;
+}
+ .avatar {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     overflow: hidden;
+ }
+
+ img {
+     max-width: 100%;
+ }
+
+ .like,
+ .dislike {
+     display: flex;
+     width: 50px;
+     align-items: center;
+     justify-content: center;
+ }
+
+.like svg {
+     width: 16px;
+     height: 16px;
+     fill: #3e77aa;
+     margin-right: 12px;
+ }
+
+.dislike svg {
+    width: 16px;
+    height: 16px;
+    fill: #3e77aa;
+    margin-right: 12px;
+    transform: rotate(180deg);
+}

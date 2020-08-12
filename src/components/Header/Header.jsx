@@ -1,12 +1,13 @@
 import React from 'react';
 import s from './Header.module.css';
+import logo from '../../images/netflix.svg'
 
 const Header = () => {
     return (
         <header className={s.header}>
-            <img src="https://cdn.dribbble.com/users/1604238/screenshots/6774929/esport_logo_marskman_archers_gaming_teams.png" alt="logo"/>
+            <img src={logo} alt="logo"/>
         </header>
     )
-}
+};
 
 export default Header;

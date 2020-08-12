@@ -6,7 +6,7 @@ const ProfileInfo = () => {
     return (
         <div>
             <div className={s.mainImg}>
-                <img src="https://media.price.ua/wp-content/uploads/2020/02/DC_films.jpg" alt=""/>
+                {/*<img src="https://media.price.ua/wp-content/uploads/2020/02/DC_films.jpg" alt=""/>*/}
                 <img src={banner} alt=""/>
             </div>
             <div className={s.descriptionBlock}>
